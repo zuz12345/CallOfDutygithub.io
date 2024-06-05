@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #A52A2A;
+}
+
+.swiper-pagination-bullet {
+    background-color: #000000 !important;
+    opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1 !important;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.header {
+    background-color: #000000;
+    color: #FFFFFF; /* لتغيير لون النص إلى الأبيض إذا لزم الأمر */
+}
+
+.custom-image-height {
+    height: 400px; /* يمكنك تغيير القيمة إلى الارتفاع الذي تريده */
+    object-fit: cover; /* للحفاظ على نسبة العرض إلى الارتفاع وتغطية الحاوية */
+}

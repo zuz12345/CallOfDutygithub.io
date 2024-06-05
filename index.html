@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoD Elite Clan</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-brown-500 text-white">
+    <header class="header py-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold">CoD Elite Clan</a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="hover:text-gray-400">About</a></li>
+                    <li><a href="#team" class="hover:text-gray-400">Team</a></li>
+                    <li><a href="#gallery" class="hover:text-gray-400">Gallery</a></li>
+                    <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="h-screen flex items-center justify-center relative">
+            <div class="z-10">
+                <h1 class="text-6xl font-bold mb-4">Welcome to CoD Elite Clan</h1>
+                <p class="text-2xl mb-8">Experience the ultimate Call of Duty gameplay with our elite team.</p>
+                <a href="#"
+                    class="bg-[#ff4b2b] hover:bg-[#ff6b6b] text-white font-bold py-3 px-6 rounded-full transition-colors duration-300">Join
+                    Now</a>
+            </div>
+            <div class="absolute inset-0 -z-10">
+                <video autoplay loop muted class="w-full h-full object-cover">
+                    <source src="vidoes/Call of Duty： Modern Warfare II Worldwide Reveal Trailer.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section id="about" class="py-20">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="flex flex-col justify-center">
+                        <h2 class="text-4xl font-bold mb-4">About CoD Elite Clan</h2>
+                        <p class="text-lg mb-8">We are a dedicated group of Call of Duty players who strive for
+                            excellence in every match. Our team is composed of skilled veterans and talented newcomers,
+                            all united by a passion for the game.</p>
+                        <a href="#"
+                            class="bg-[#ff4b2b] hover:bg-[#ff6b6b] text-white font-bold py-3 px-6 rounded-full transition-colors duration-300">Learn
+                            More</a>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="py-20 bg-gradient-to-r from-[#302b63] to-[#24243e]">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-8 text-center">Our Elite Team</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded-lg shadow-lg p-6 text-black">
+                                <img src="images/Default_call_of_duty_character_ghost_0.jpg" alt="Team Member 1"
+                                    class="rounded-full w-32 h-32 mx-auto mb-4">
+                                <h3 class="text-2xl font-bold mb-2">Zuz Almoz</h3>
+                                <p class="text-gray-600 mb-4">Lead Strategist</p>
+                                <p>Zuz is a seasoned Call of Duty player with years of experience leading teams to
+                                    victory. His strategic mind and quick reflexes make him a valuable asset to the
+                                    clan.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded-lg shadow-lg p-6 text-black">
+                                <img src="images/Default_call_of_duty_character_ghost_1.jpg" alt="Team Member 2"
+                                    class="rounded-full w-32 h-32 mx-auto mb-4">
+                                <h3 class="text-2xl font-bold mb-2">JazzMedo</h3>
+                                <p class="text-gray-600 mb-4">Sniper Specialist</p>
+                                <p>Medo is a sniper extraordinaire with pinpoint accuracy and lightning-fast reactions.
+                                    She's a crucial part of our team's success on the battlefield.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white rounded-lg shadow-lg p-6 text-black">
+                                <img src="images/Default_call_of_duty_character_ghost_2.jpg" alt="Team Member 3"
+                                    class="rounded-full w-32 h-32 mx-auto mb-4">
+                                <h3 class="text-2xl font-bold mb-2">Abdullah Waleed</h3>
+                                <p class="text-gray-600 mb-4">Assault Specialist</p>
+                                <p>Abdullah is a skilled assault player who excels at close-quarters combat. His bravery
+                                    and quick thinking make him a vital part of our team's offensive maneuvers.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="py-20">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-8 text-center">Gallery</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up"
+                        data-aos-duration="800">
+                        <img src="images/Default_call_of_duty_character_ghost_with_weapons_0.jpg" alt="Gallery Image 1" class="w-full custom-image-height">
+                        <div class="p-4">
+                            <h3 class="text-2xl font-bold mb-2">Intense Gameplay</h3>
+                            <p class="text-gray-600">Capture the thrill of our elite players in action.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up"
+                        data-aos-duration="800" data-aos-delay="200">
+                        <img src="images/Default_call_of_duty_character_ghost_with_weapons_2.jpg" alt="Gallery Image 2" class="w-full custom-image-height">
+                        <div class="p-4">
+                            <h3 class="text-2xl font-bold mb-2">Team Coordination</h3>
+                            <p class="text-gray-600">See how our team works together to dominate the battlefield.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden" data-aos="fade-up"
+                        data-aos-duration="800" data-aos-delay="400">
+                        <img src="images/Default_call_of_duty_character_ghost_with_weapons_3.jpg" alt="Gallery Image 3" class="w-full custom-image-height">
+                        <div class="p-4">
+                            <h3 class="text-2xl font-bold mb-2">Victory Celebrations</h3>
+                            <p class="text-gray-600">Witness the joy of our team's triumphant moments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-gradient-to-r from-[#302b63] to-[#24243e]">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold mb-8 text-center">Contact Us</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-black">
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block font-bold mb-2">Name</label>
+                                <input type="text" id="name" name="name"
+                                    class="w-full border border-gray-300 rounded-lg py-2 px-4" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block font-bold mb-2">Email</label>
+                                <input type="email" id="email" name="email"
+                                    class="w-full border border-gray-300 rounded-lg py-2 px-4" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block font-bold mb-2">Message</label>
+                                <textarea id="message" name="message" rows="5"
+                                    class="w-full border border-gray-300 rounded-lg py-2 px-4" required></textarea>
+                            </div>
+                            <button type="submit"
+                                class="bg-[#ff4b2b] hover:bg-[#ff6b6b] text-white font-bold py-3 px-6 rounded-full transition-colors duration-300">Send
+                                Message</button>
+                        </form>
+                    </div>
+                    <div class="flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold mb-4">Get in Touch</h3>
+                        <p class="text-lg mb-4">We'd love to hear from you! Use the form to contact us with any
+                            questions, comments, or inquiries.</p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-2xl hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-2xl hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-2xl hover:text-gray-400"><i class="fab fa-discord"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#0f0c29] py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 CoD Elite Clan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+
+        const swiper = new Swiper('.mySwiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        ScrollReveal().reveal('.reveal', {
+            duration: 800,
+            origin: 'bottom',
+            distance: '50px',
+            delay: 200
+        });
+
+        gsap.from('#hero', {
+            duration: 1.5,
+            y: '100%',
+            ease: 'power2.out'
+        });
+    </script>
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
